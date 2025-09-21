@@ -1,6 +1,5 @@
 /////
 ////
-pragma solidity ^0.8.24;
 
 interface IFlashLoanProvider {
     function flashLoan(uint256 amount) external;
@@ -35,6 +34,7 @@ contract FlashLoanContract {
 
     receive() external payable {}
 }
+
 
 
 
